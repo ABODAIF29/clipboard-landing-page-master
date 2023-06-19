@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/******* Reset *******/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+p {
+    line-height: 1.5;
+}
+h1 {
+    line-height: 1.4;
+}
+.section-4 img {
+    width: 18%;
+    padding-bottom: 2em;
+}
+/******* Global *******/
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --white:white;
+    --background-footer: #eee;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-box a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #0072c6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+
+/******* Start Header *******/
+header {
+    background-image: url(images/bg-header-mobile.png);
+}
+header .container {
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+/******* End Header *******/
+/******* Start Main *******/
+main {
+    width: 90%;
+    margin-left: 1em;
+}
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .section-1 h1 {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 1.8em;
+    padding-bottom: .7em;
+}
+.container .section-1 p {
+    color: var(--Grayish-Blue);
+    padding-bottom: 2.5em;
+}
+.section-1 .btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-box a {
+    width: 80%;
+}
+.btn-box a:first-of-type {
+    background-color: var(--Strong-Cyan);
+    color: var(--white);
+    border-radius: 1.5em;
+    padding: .9em;
+    box-shadow: 4px 4px 14px var(--Strong-Cyan);
+    margin-bottom: 1.3em;
+}
+.btn-box a:last-of-type {
+    background-color: var(--Light-Blue);
+    color: var(--white);
+    border-radius: 1.5em;
+    padding: .9em;
+    box-shadow: 4px 4px 14px var(--Light-Blue);
+    margin-bottom: 8em;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+.section-2 h2 {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 2em;
+    padding-bottom: .5em;
+}
+.section-2 p {
+    color: var(--Grayish-Blue);
+    font-size: .99999em;
+    padding-bottom: 3.5em;
+}
+.section-2 img {
+    width: 100%;
+    padding-bottom: 3.5em;
+}
+.section-2 h2:nth-of-type(2) {
+    color: var(--Dark-Grayish-Blue);
+}
+.section-2 p:nth-of-type(2) {
+    color: var(--Grayish-Blue);
+    font-size: .99em;
+}
+.section-2 h2:nth-of-type(3) {
+    color: var(--Dark-Grayish-Blue);
+}
+.section-2 p:nth-of-type(3) {
+    color: var(--Grayish-Blue);
+    font-size: .99em;
+}
+.section-2 h2:nth-of-type(4) {
+    color: var(--Dark-Grayish-Blue);
+}
+.section-2 p:nth-of-type(4) {
+    color: var(--Grayish-Blue);
+    font-size: .99em;
+}
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6em;
+}
+.section-3 h2:nth-of-type(1) {
+    color: var(--Dark-Grayish-Blue);
+    padding-bottom: 1em;
+}
+.section-3 p:nth-of-type(1) {
+    color: var(--Grayish-Blue);
+    font-size: .9em;
+}
+.section-3 img {
+    padding-top: 3.5em;
+    width: 100%;
+    box-shadow: 4px 29px 20px #eee;
+}
+.section-4 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.section-4 h1 {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 1.4em;
+    padding-bottom: .5em;
+}
+.section-4 p:nth-of-type(1) {
+    color: var(--Grayish-Blue);
+    padding-bottom: 4.4em;
+}
+.section-4 .blacklists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4 .blacklists p {
+    font-size: .9em;
+}
+.section-4 .text p {
+    font-size: .9em;
+}
+.section-5 .images-section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5.5em;
+}
+.section-5 img {
+    padding-bottom: 4.3em;
+}
+.section-6 h1{
+    color: var(--Dark-Grayish-Blue);
+    font-size: 1.8em;
+    padding-bottom: .7em;
+}
+.section-6 p {
+    color: var(--Grayish-Blue);
+    padding-bottom: 2.5em;
+}
+.section-6 .btn-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+.section-6 .btn-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+.btn-box-2 a:first-of-type {
+    background-color: var(--Strong-Cyan);
+    color: var(--white);
+    border-radius: 1.5em;
+    padding: .9em;
+    box-shadow: 4px 4px 14px var(--Strong-Cyan);
+    margin-bottom: 1.3em;
+}
+.btn-box-2 a:last-of-type {
+    background-color: var(--Light-Blue);
+    color: var(--white);
+    border-radius: 1.5em;
+    padding: .9em;
+    box-shadow: 4px 4px 14px var(--Light-Blue);
+    margin-bottom: 10em;
+}
+/* Start footer */
+footer {
+    background-color: var(--background-footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;   
+}
+footer .image-logo img {
+    width: 50%;
+    padding-bottom: 2em;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+.links .FAQS,
+.links .Privacy
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+.links a {
+    color: var(--Dark-Grayish-Blue);
+    padding-bottom: 1.5em;
+}
+a:hover {
+    color: var(--Strong-Cyan);
+}
+.Social-icon {
+    display: flex;
+    margin-left: 2em;
+}
+.Social-icon a {
+    margin-right: 2em;
+}
+/* End footer */
+/******* End Main *******/
+/******* Start Media *******/
+
+@media screen and (min-width: 1440px) {
+    header {
+        background-image: url(./images/bg-header-desktop.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /******* Start Section-1 *******/
+    .section-1 h1,
+    .section-6 h1
+    {
+        margin-left: 7em;
+    }
+    .section-1 p,
+    .section-6 p
+    {
+    font-size: 1.9em;
+    width: 80%;
+    margin-left: 7em;
+    }
+    @media screen and (min-width: 1440px)  {
+        .section-1 .btn-box  {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: initial;
+        margin-bottom: 5em;
+        margin-left: 10em;
+    }
+    .btn-box a {
+        width: 30%;
+    }
+    .btn-box a:first-of-type {
+        margin-bottom: initial;
+    }
+    .btn-box a:last-of-type {
+        margin-bottom: initial;
+    }
+    
+}
+/******* End Section-1 *******/
+/******* Start Section-2 *******/
+.media {
+    display: flex;
+    width: 100%;
+}
+.media .cild-2  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: initial;
+}
+.media .cild-2 .h2-p-1,
+.media .cild-2 .h2-p-2,
+.media .cild-2 .h2-p-3
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.h2-p-1 h2,
+.h2-p-2 h2,
+.h2-p-3 h2
+{
+    font-size: 1em;
+    display: flex;
+}
+.h2-p-2 p {
+    font-size: 1.2em;
+}
+/******* End Section-2 *******/
+/******* start Section-3 *******/
+.Access {
+    margin: 0 auto;
+}
+.Access p {
+    color: var(--Grayish-Blue);
+    width: 71%;
+    margin: 0 auto;
+}
+
+/******* End Section-3 *******/
+
+/******* Start Section-4 *******/
+.h1-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.workflow {
+    display: flex;
+    margin-left: 10%;
+}
+.workflow .text,
+.workflow .sneak,
+.workflow .blacklists
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.workflow img {
+    width: 12%;
+}
+.section-4 .blacklists p {
+    font-size: .9em;
+    width: 81%;
+}
+.section-4 .text p {
+    font-size: .9em;
+    width: 85%;
+}
+/******* End Section-4 *******/
+/******* Start Section-5 *******/
+.section-5 {
+    width: 100%;
+    margin-left: 18%;
+}
+.section-5 .images-section-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-5 img {
+    padding-right: 9em;
+    width: 20%;
+}
+/******* End Section-5 *******/
+/******* Strat Section-6 *******/
+.section-6 {
+    margin: 0 auto;
+}
+.Clipboard {
+    margin: 0 auto;
+}
+.Clipboard p {
+    font-size: 1.9em;
+    width: 94%;
+    margin-left: 3em;
+}
+.section-6 p {
+    font-size: 1em;
+    width: 65%;
+    margin: 0 auto;
+}
+.section-6 h1 {
+    margin-left: initial;
+}
+.section-6 .btn-box-2 {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: initial;
+    margin-bottom: 5em;
+}
+.btn-box-2 a {
+    width: 30%;
+}
+.btn-box-2 a:first-of-type {
+    margin-bottom: initial;
+    margin-right: 1em;
+}
+.btn-box-2 a:last-of-type {
+    margin-bottom: initial;
+}
+/******* End Section-6 *******/
+/******* Start Footer *******/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: initial;
+}
+.image-logo {
+    margin-top: 2em;
+}
+footer .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: initial;
+    margin-top: 2em;
+    margin-right: 15%;
+    text-align: initial;
+}
+.links .FAQS {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: initial;
+    margin-right: 6em;
+}
+.links .Privacy {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: initial;
+    margin-right: 5em;
+}
+.Social-icon {
+    display: flex;
+    align-items: center;
+}
+
+/******* End Footer *******/
+}
